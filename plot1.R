@@ -1,6 +1,6 @@
 # plot1.R
 plot1 <- function(){
-# open the png devicce  
+# open the png device  
 png("plot1.png")
 # read the file previously download
 household_power_consumption <- read.csv("~/rdata/mooc R/household_power_consumption.txt", sep=";",na="?",as.is=c(1,2),nrows=69517)
